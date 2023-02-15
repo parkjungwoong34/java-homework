@@ -1,13 +1,14 @@
+package chap14;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class Shape3 {
+public class Shape {
     private String type;
     private String color;
     private Double area;
 
-    public Shape3(String type, String color, Double area) {
+    public Shape(String type, String color, Double area) {
         this.type = type;
         this.color = color;
         this.area = area;
